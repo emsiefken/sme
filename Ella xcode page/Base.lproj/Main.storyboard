@@ -69,21 +69,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="[Emily's instruction information]" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e7a-CX-ny1">
-                                <rect key="frame" x="110" y="223" width="207" height="30"/>
-                                <color key="backgroundColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.97782512629999996" green="0.77458914680000002" blue="0.072563605660000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.97782512629999996" green="0.77458914680000002" blue="0.072563605660000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtg-CX-H4v">
-                                <rect key="frame" x="147" y="319" width="133" height="30"/>
-                                <state key="normal" title="Possible Help Links"/>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAP-IV-eeH">
+                                <rect key="frame" x="69" y="83" width="244" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Connect your fitbit to the phone">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Thin"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5U3-tb-eem">
+                                <rect key="frame" x="69" y="144" width="222" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Choose the target heart rate">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Thin"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXs-Bq-dnq">
+                                <rect key="frame" x="62" y="192" width="324" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Get your Google Cardboard headset ready">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Thin"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="google cardboard-1" translatesAutoresizingMaskIntoConstraints="NO" id="9NZ-fB-0Uh">
+                                <rect key="frame" x="372" y="265" width="208" height="152"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-1" highlightedImage="iphone-1" translatesAutoresizingMaskIntoConstraints="NO" id="t5e-U8-cCU">
+                                <rect key="frame" x="207" y="253" width="150" height="165"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fitbit -1" translatesAutoresizingMaskIntoConstraints="NO" id="mjI-aN-B0t">
+                                <rect key="frame" x="20" y="265" width="179" height="145"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwN-4n-TAn">
-                                <rect key="frame" x="196" y="466" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
+                                <rect key="frame" x="143" y="488" width="50" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="43C-XQ-Zfs"/>
                                 </connections>
@@ -95,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZRp-PI-8Is" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-187" y="1266"/>
+            <point key="canvasLocation" x="-133" y="1120"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PnY-a9-hud">
@@ -118,5 +154,8 @@
     </scenes>
     <resources>
         <image name="Image" width="1000" height="500"/>
+        <image name="fitbit -1" width="243" height="207"/>
+        <image name="google cardboard-1" width="300" height="264"/>
+        <image name="iphone-1" width="210" height="240"/>
     </resources>
 </document>
