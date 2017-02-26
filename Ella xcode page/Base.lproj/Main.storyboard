@@ -17,8 +17,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="axw-bO-HyO">
+                                <rect key="frame" x="182" y="28" width="355" height="174"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="A Sensory Music Experience" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bgP-Jk-MTT">
+                                <rect key="frame" x="257" y="182" width="205" height="30"/>
+                                <color key="backgroundColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.97782512629999996" green="0.77458914680000002" blue="0.072563605660000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nab-fu-NPp">
+                                <rect key="frame" x="315" y="268" width="89" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.97782512629999996" green="0.77458914680000002" blue="0.072563605660000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.97099905303030298" green="0.44949210439409798" blue="0.090962872204051137" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Rgz-HX-f7P" kind="show" id="dyg-Fr-QE3"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHv-wo-SBC">
-                                <rect key="frame" x="146" y="429" width="131" height="52"/>
+                                <rect key="frame" x="294" y="309" width="131" height="53"/>
                                 <state key="normal" title="Instructions">
                                     <color key="titleColor" red="0.97782512629999996" green="0.77458914680000002" blue="0.072563605660000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.97099905303030298" green="0.44949210439409798" blue="0.090962872204051137" alpha="1" colorSpace="calibratedRGB"/>
@@ -27,29 +48,8 @@
                                     <segue destination="s0n-6H-kVh" kind="show" id="1xJ-ss-vOf"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="axw-bO-HyO">
-                                <rect key="frame" x="34" y="103" width="355" height="174"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="A Sensory Music Experience" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bgP-Jk-MTT">
-                                <rect key="frame" x="109" y="285" width="205" height="30"/>
-                                <color key="backgroundColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.97782512629999996" green="0.77458914680000002" blue="0.072563605660000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nab-fu-NPp">
-                                <rect key="frame" x="80" y="349" width="263" height="102"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="Start">
-                                    <color key="titleColor" red="0.97782512629999996" green="0.77458914680000002" blue="0.072563605660000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.97099905303030298" green="0.44949210439409798" blue="0.090962872204051137" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="rYr-Mw-Y4x" kind="show" id="CNs-yZ-V6X"/>
-                                </connections>
-                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.76708491161616166" green="0.11568556070286383" blue="0.20441094590043796" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -69,93 +69,155 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAP-IV-eeH">
-                                <rect key="frame" x="69" y="83" width="244" height="21"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Connect your fitbit to the phone">
-                                        <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue-Thin"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose the target heart rate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5U3-tb-eem">
+                                <rect key="frame" x="276" y="124" width="222" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5U3-tb-eem">
-                                <rect key="frame" x="69" y="144" width="222" height="21"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Choose the target heart rate">
-                                        <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue-Thin"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXs-Bq-dnq">
-                                <rect key="frame" x="62" y="192" width="324" height="21"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Get your Google Cardboard headset ready">
-                                        <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue-Thin"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get your Google Cardboard headset ready" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXs-Bq-dnq">
+                                <rect key="frame" x="225" y="153" width="324" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="google cardboard-1" translatesAutoresizingMaskIntoConstraints="NO" id="9NZ-fB-0Uh">
-                                <rect key="frame" x="372" y="265" width="208" height="152"/>
+                                <rect key="frame" x="497" y="207" width="130" height="120"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-1" highlightedImage="iphone-1" translatesAutoresizingMaskIntoConstraints="NO" id="t5e-U8-cCU">
-                                <rect key="frame" x="207" y="253" width="150" height="165"/>
+                                <rect key="frame" x="336" y="197" width="102" height="140"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fitbit -1" translatesAutoresizingMaskIntoConstraints="NO" id="mjI-aN-B0t">
-                                <rect key="frame" x="20" y="265" width="179" height="145"/>
+                                <rect key="frame" x="93" y="194" width="179" height="145"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwN-4n-TAn">
-                                <rect key="frame" x="143" y="488" width="50" height="30"/>
+                                <rect key="frame" x="362" y="357" width="50" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="43C-XQ-Zfs"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEE-K4-Tu7">
+                                <rect key="frame" x="319" y="43" width="137" height="28"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connect your fitbit to the phone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAP-IV-eeH">
+                                <rect key="frame" x="266" y="95" width="242" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.97782512629999996" green="0.77458914680000002" blue="0.072563605660000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KEE-K4-Tu7" firstAttribute="centerX" secondItem="9Av-GH-jZM" secondAttribute="centerX" id="DS7-Xw-eOp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZRp-PI-8Is" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-133" y="1120"/>
+            <point key="canvasLocation" x="-548" y="474"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="PnY-a9-hud">
+        <scene sceneID="fc4-ud-bQY">
             <objects>
-                <viewController id="rYr-Mw-Y4x" sceneMemberID="viewController">
+                <viewController id="Mmz-tB-j67" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qnf-Ib-7gH"/>
-                        <viewControllerLayoutGuide type="bottom" id="U1r-HG-KVi"/>
+                        <viewControllerLayoutGuide type="top" id="sF8-zR-5WO"/>
+                        <viewControllerLayoutGuide type="bottom" id="aTF-a2-W1j"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="21l-zL-ghh">
+                    <view key="view" contentMode="scaleToFill" id="bc0-04-BvG">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ba1-hx-eTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dh3-QS-fcH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="401" y="1054"/>
+            <point key="canvasLocation" x="411" y="1780"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NN7-2d-Kqk">
+            <objects>
+                <viewController id="Rgz-HX-f7P" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jcb-DR-CPy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Asd-9F-tpk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PUo-tV-6Po">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJk-ct-LAt">
+                                <rect key="frame" x="133" y="347" width="148" height="51"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="speed up" backgroundImage="red button 2.0">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Mmz-tB-j67" kind="show" id="uk3-Oy-jbR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPR-cm-ApV">
+                                <rect key="frame" x="122" y="425" width="169" height="51"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <state key="normal" title="stay the same" backgroundImage="red button 2.0">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Mmz-tB-j67" kind="show" id="Rax-Ss-v8O"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Would you like your" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aJ-yd-4S6">
+                                <rect key="frame" x="8" y="171" width="395" height="107"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="heart rate to..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55w-VU-ZlZ">
+                                <rect key="frame" x="119" y="254" width="173" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.76708491160000003" green="0.1156855607" blue="0.2044109459" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Iginite logo" translatesAutoresizingMaskIntoConstraints="NO" id="G0V-Ok-eZK">
+                                <rect key="frame" x="167" y="37" width="76" height="74"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xg9-2h-YJS">
+                                <rect key="frame" x="136" y="505" width="141" height="51"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <state key="normal" title="slow down" backgroundImage="red button 2.0">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Mmz-tB-j67" kind="show" id="ifA-cV-dDa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIP-Is-iRj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="435" y="1057"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Iginite logo" width="2500" height="2500"/>
         <image name="Image" width="1000" height="500"/>
         <image name="fitbit -1" width="243" height="207"/>
         <image name="google cardboard-1" width="300" height="264"/>
         <image name="iphone-1" width="210" height="240"/>
+        <image name="red button 2.0" width="600" height="203"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="uk3-Oy-jbR"/>
+    </inferredMetricsTieBreakers>
 </document>
